@@ -1,0 +1,31 @@
+{
+    "configurations": [
+
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "[Local] Sample Code",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/",
+            "module": "hi",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "/home/uvuuview/22SP/prp/LHY_HW3/"}
+        },
+
+        {
+            "name": "[Server] Sample Code",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/",
+            "module": "hi",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "/home/prp/wy/LHY_HW3/"}
+        }
+    ]
+}
