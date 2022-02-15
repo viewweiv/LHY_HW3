@@ -8,6 +8,12 @@ from PIL import Image
 from torch.utils.data import ConcatDataset, DataLoader, Subset, Dataset
 from torchvision.datasets import DatasetFolder
 
+# * what is this 
+# ! danger
+# ? is it correct
+# TODO: hahaha, great work!
+# FIXME: 
+# @param 
 
 class Classifier(nn.Module):
     def __init__(self):
